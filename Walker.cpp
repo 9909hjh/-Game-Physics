@@ -39,7 +39,7 @@ void Walker::update()
 
 void Walker::draw(SDL_Renderer* renderer)
 {
-  filledCircleColor(renderer, target->getX(), target->getY(), 10, 0xFFFFFF00);
+  //filledCircleColor(renderer, target->getX(), target->getY(), 10, 0xFFFFFF00);
   
   for(int i = 0; i != m_Vehicle.size(); i++)
     {

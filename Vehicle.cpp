@@ -59,11 +59,7 @@ Vector2D Vehicle::goradian(float x, float y, float radian)
 
 void Vehicle::draw(SDL_Renderer* renderer)
 {
- filledTrigonRGBA(renderer, 
-  rdi1->getX() + m_pos->getX(), rdi1->getY() + m_pos->getY(), 
-  rdi2->getX() + m_pos->getX(), rdi2->getY() + m_pos->getY(),
-  rdi3->getX() + m_pos->getX(), rdi3->getY() + m_pos->getY(), 
-  255, 255, 255, 255);
+ //filledTrigonRGBA(renderer,  rdi1->getX() + m_pos->getX(), rdi1->getY() + m_pos->getY(), rdi2->getX() + m_pos->getX(), rdi2->getY() + m_pos->getY(),rdi3->getX() + m_pos->getX(), rdi3->getY() + m_pos->getY(), 255, 255, 255, 255);
 }
 
 void Vehicle::seek(Vector2D* target)
