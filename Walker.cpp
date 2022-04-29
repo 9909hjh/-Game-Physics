@@ -15,6 +15,7 @@ Walker::Walker()
   m_Vehicle.push_back(new Vehicle(100, 100));
     m_Vehicle.push_back(new Vehicle(50, 100));
 
+  // 깃헙테스트
   m_mousePos = new Vector2D(0, 0);
   target = new Vector2D(0, 0);
 }
