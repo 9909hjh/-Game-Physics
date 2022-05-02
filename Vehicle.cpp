@@ -20,7 +20,7 @@ Vehicle::Vehicle(int x, int y) : maxSpeed(4), maxForce(0.25f), r(16)
 void Vehicle::update() 
 {
   //mousemove();
-  //edges();
+  edges();
   
   *m_vel += *m_acc;
   m_vel->limit(maxSpeed);
