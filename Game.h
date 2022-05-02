@@ -1,7 +1,6 @@
 #pragma once
 
-//#include "usr/include/SDL2/SDL.h"
-//#include "usr/include/SDL2/SDL2_gfxPrimitives.h"
+#include "SDL2_gfxPrimitives.h"
 //#include "usr/include/SDL2/SDL_image.h"
 #include "SDL.h"
 

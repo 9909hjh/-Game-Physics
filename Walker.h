@@ -1,8 +1,8 @@
 #pragma once
 
-//#include "usr/include/SDL2/SDL.h"
-//#include "usr/include/SDL2/SDL2_gfxPrimitives.h"
 #include "SDL.h"
+//#include "usr/include/SDL2/SDL2_gfxPrimitives.h"
+#include "SDL2_gfxPrimitives.h"
 //#include "SD_ttf"
 
 #include "InputHandler.h"
