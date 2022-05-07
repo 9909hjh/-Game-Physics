@@ -1,13 +1,13 @@
 #pragma once
-//#include "SDL.h"
-//#include "SDL2_gfxPrimitives.h"
+#include "SDL.h"
+#include "SDL2_gfxPrimitives.h"
 
 #include "Vector2D.h"
 #include "Game.h"
 #include "InputHandler.h"
 
-#include "usr/include/SDL2/SDL2_gfxPrimitives.h"
-#include "usr/include/SDL2/SDL.h"
+//#include "usr/include/SDL2/SDL2_gfxPrimitives.h"
+//#include "usr/include/SDL2/SDL.h"
 
 
 class Vehicle 
